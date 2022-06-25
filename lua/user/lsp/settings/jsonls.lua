@@ -1,6 +1,20 @@
 -- Find more schemas here: https://www.schemastore.org/json/
 local schemas = {
   {
+    description = "Flutter and Dart project config",
+    fileMatch = {
+      "pubspec.yaml",
+    },
+    url = "https://json.schemastore.org/pubspec.json",
+  },
+  {
+    description = "Dart build config",
+    fileMatch = {
+      "build.yaml",
+    },
+    url = "https://json.schemastore.org/dart-build.json",
+  },
+  {
     description = "TypeScript compiler configuration file",
     fileMatch = {
       "tsconfig.json",

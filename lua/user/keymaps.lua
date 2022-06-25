@@ -43,10 +43,10 @@ keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Saving
 keymap("n", "ss", ":w<CR>", opts)
-keymap("n", "sq", ":wq<CR>", opts)
+keymap("n", "sx", ":wq<CR>", opts)
 
 -- Quitting
-keymap("n", "qq", ":q!<CR>", opts)
+keymap("n", "zz", ":q!<CR>", opts)
 
 -- Insert --
 -- Press jk fast to enter
